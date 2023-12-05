@@ -4,6 +4,21 @@ site_description: wangfei的个人网站
 
 # [Navigtion]
 nav:
+  - 兴趣:
+    - interest/index.md
+    - Git:
+      - Git clone Error: interest/Git/Git clone.md #git clone 报错
+    - Latex:
+      - 常用公式: interest/Latex/formula.md
+    - Mac terminal: interest/terminal.md
+    - Markdown :
+      - 教程: interest/Markdown/tutorials.md
+  - 电影:
+    - 目录: Movie/index.md
+    - 每周推荐:
+      - S1:
+        - S1E1-231125: Movie/Weekly/S1/S1E1-231125.md
+        - S1E2-231202: Movie/Weekly/S1/S1E2-231202.md
   - 我:
     - ME/index.md
     - ME/introduction.md
@@ -53,7 +68,7 @@ edit_uri: edit/main/docs # 编辑按钮跳转的链接
 repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io # 右上角点击跳转的链接
 repo_name: yang-xijie.github.io # 右上角的名字
 ## [bottom-left corner]
-copyright: 杨希杰 CC-BY-4.0 # 左下角的版权声明
+copyright: Slash dove# 左下角的版权声明
 ## [bottom-right corner]
 extra:
   social: # icons
